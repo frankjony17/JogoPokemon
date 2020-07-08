@@ -2,12 +2,9 @@
 
 For Django python 3.6:
 1.  cd JogoPokemon/postgresql
-~~# Crie o banco de dados postgresql~~
 2.  sudo docker-compose up --build  
 3.  cd JogoPokemon/DjangoRestApiPostgreSQL
-~~# Crie o ambiente de desenvolvimento.~~
-4.  python3.6 -m venv pokemon-venv  
-~~# Ativar o ambiente de desenvolvimento~~
+4.  python3.6 -m venv pokemon-venv
 5.  source pokemon-venv/bin/activate  
 6.  pip install djangorestframework==3.11.0 django-cors-headers==3.4.0 psycopg2-binary==2.8.5 PyYAML==5.3.1
 7.  python manage.py makemigrations pokemon

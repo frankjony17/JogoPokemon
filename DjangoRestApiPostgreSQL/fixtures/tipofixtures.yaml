@@ -1,0 +1,28 @@
+
+- model: pokemon.tipo
+  pk: 1
+  fields:
+    name: "grass"
+    slot: 1
+    url: "https://pokeapi.co/api/v2/type/12/"
+
+- model: pokemon.tipo
+  pk: 2
+  fields:
+    name: "poison"
+    slot: 2
+    url: "https://pokeapi.co/api/v2/type/4/"
+
+- model: pokemon.tipo
+  pk: 3
+  fields:
+    name: "fire"
+    slot: 1
+    url: "https://pokeapi.co/api/v2/type/10/"
+
+- model: pokemon.tipo
+  pk: 4
+  fields:
+    name: "bug"
+    slot: 1
+    url: "https://pokeapi.co/api/v2/type/7/"

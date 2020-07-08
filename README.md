@@ -1,5 +1,4 @@
 # JogoPokemon
-JogoPokemon
 
 For Django python 3.6:
 1.  cd JogoPokemon/postgresql
